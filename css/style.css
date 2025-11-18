@@ -1,0 +1,100 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* BG IMAGE */
+.wall {
+    height: 20vh;
+    background-image: url(../img/wall.png);
+}
+
+.cork {
+    height: 100%;
+    background-image: url(../img/cork.png);
+}
+
+/* BG COLOR */
+.bg-white {
+    background-color: white;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+/* CARD */
+.card {
+    width: calc(33.333% - 30px);
+    min-width: 250px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+.card-image {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Edu Tas Beginner', 'Sometype Mono', monospace, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+.huge-title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
