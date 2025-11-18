@@ -113,3 +113,11 @@ header {
     position: fixed;
     width: 100%;
 }
+
+.data {
+    text-align: left;
+}
+
+.titolo {
+    text-align: left;
+}

@@ -1,4 +1,4 @@
-
+     console.log(curFoto.url);
 @studente 
 Ciao ragazzi,
 esercizio di oggi: Photo Blog

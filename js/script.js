@@ -9,14 +9,15 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         let fotoStr = ""
         fotoArray.forEach(curFoto => {
             console.log(curFoto.url);
-            fotoStr += ` <div class="card flex justify-content-center align-items-center">
+            fotoStr += ` <div class="card flex justify-content-center">
                 <div class="card-image">
 
                     <img class="pin" src="./img/pin.svg" alt="Pin">
                     <img src="${curFoto.url}">
                 </div>
                 <div class="card-title">
-                    <h2>Accusamus Beatae Ad Facilis Cum Similique Qui Sunt</h2>
+                    <div class="data">${curFoto.date}</div>
+                <h2 class="titolo">${curFoto.title}</h2>
                 </div>
             </div>`
 
